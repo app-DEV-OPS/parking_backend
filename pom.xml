@@ -93,7 +93,12 @@
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.0.2</version>
 </plugin>
+			<plugin><groupid>org.sonarsource.scanner.maven</groupid>
+				<artifactid>sonar-maven-plugin</artifactid>
+				<version><3.7.0</version>
+					</plugin>
 			<plugin>
+				
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
