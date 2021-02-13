@@ -89,14 +89,12 @@
        		<url>http://ec2-65-0-20-5.ap-south-1.compute.amazonaws.com:8081/repository/maven-releases/</url>
     	</repository>
 </distributionManagement>
-	
-	
-	<build>
-		<plugins>
-			<plugin>65.0.20.5
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+<build>
+	<plugins>
+		<plugin>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-maven-plugin</artifactId>
+		</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
