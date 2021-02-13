@@ -82,18 +82,18 @@
 	<distributionManagement>
     <snapshotRepository>
        <id>nexus</id>
-       <url>http://ec2-65-0-20-5.ap-south-1.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
+       <url>http://65.0.20.5:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
        <id>nexus</id>
-       <url>http://ec2-65-0-20-5.ap-south-1.compute.amazonaws.com:8081/repository/maven-releases/</url>
+       <url>http://65.0.20.5:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 	
 	
 	<build>
 		<plugins>
-			<plugin>
+			<plugin>65.0.20.5
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
