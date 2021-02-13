@@ -82,11 +82,11 @@
 <distributionManagement>
 	<snapshotRepository>
        		<id>nexus3</id>
-       		<url>http://ec2-65-0-20-5.ap-south-1.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
+       		<url>http://35.154.90.22:8081/repository/maven-snapshots/</url>
     	</snapshotRepository>
     	<repository>
        		<id>nexus3</id>
-       		<url>http://ec2-65-0-20-5.ap-south-1.compute.amazonaws.com:8081/repository/maven-releases/</url>
+       		<url>http://35.154.90.22:8081/repository/maven-releases/</url>
     	</repository>
 </distributionManagement>
 <build>
