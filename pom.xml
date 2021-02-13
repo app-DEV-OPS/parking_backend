@@ -81,11 +81,11 @@
 	</dependencies>
 <distributionManagement>
 	<snapshotRepository>
-       		<id>nexus</id>
+       		<id>nexus3</id>
        		<url>http://35.154.90.22:8081/repository/maven-snapshots/</url>
     	</snapshotRepository>
     	<repository>
-       		<id>nexus</id>
+       		<id>nexus3</id>
        		<url>http://35.154.90.22:8081/repository/maven-releases/</url>
     	</repository>
 </distributionManagement>
