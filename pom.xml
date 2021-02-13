@@ -80,15 +80,15 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-    <snapshotRepository>
-       <id>nexus</id>
-       <url>http://65.0.20.5:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-    <repository>
-       <id>nexus</id>
-       <url>http://65.0.20.5:8081/repository/maven-releases/</url>
-    </repository>
-  </distributionManagement>
+       		<snapshotRepository>
+       			<id>nexus</id>
+       			<url>http://ec2-65-0-20-5.ap-south-1.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
+    		</snapshotRepository>
+    		<repository>
+       			<id>nexus</id>
+       			<url>http://ec2-65-0-20-5.ap-south-1.compute.amazonaws.com:8081/repository/maven-releases/</url>
+    		</repository>
+        </distributionManagement>
 	
 	
 	<build>
